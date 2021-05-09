@@ -14,7 +14,7 @@ steps:
     repo: "canveshh1/nginx-eks"
     # CF_BRANCH value is auto set when pipeline is triggered
     # Learn more at codefresh.io/docs/docs/codefresh-yaml/variables/
-    revision: "master"
+    revision: "main"
     git: "github"
     stage: "clone"
 
