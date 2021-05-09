@@ -22,7 +22,7 @@ steps:
     title: Deploying
     stage: deploy
     image: pulumi/pulumi
-    working_directory: Eks-01
+    working_directory: nginx-eks
     commands:
       - ls
       - yarn install
